@@ -25,7 +25,7 @@ class ScorePanel {
         // 使分数自增
         this.scoreEle.innerHTML = ++this.score + '';
         // 判断分数是多少
-        if (this.score % this.upScore === 10) {
+        if (this.score % this.upScore === 0) {
             this.levelUp();
         }
     }
